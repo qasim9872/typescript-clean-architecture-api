@@ -30,6 +30,6 @@ Builds the app for production to the `build` folder.
 
 - [x] Prettier
 - [x] ESLint
-- [ ] Husky
+- [x] Husky
 - [ ] CommitLint
 - [ ] Change Log

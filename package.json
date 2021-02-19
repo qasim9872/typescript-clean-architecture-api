@@ -15,12 +15,16 @@
     "format": "yarn pretty-base --write",
     "lint": "eslint --fix 'src/**/*.{ts,tsx}'",
     "format:lint": "yarn format && yarn lint",
-    "postinstall": "is-ci || husky install"
+    "postinstall": "is-ci || husky install",
+    "commit": "commit"
   },
   "keywords": [],
   "author": "Muhammad Qasim <qasim9872@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/prompt-cli": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",

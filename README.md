@@ -28,8 +28,8 @@ Builds the app for production to the `build` folder.
 
 ## Configuration
 
-- [ ] Prettier
-- [ ] ESLint
+- [x] Prettier
+- [x] ESLint
 - [ ] Husky
 - [ ] CommitLint
 - [ ] Change Log

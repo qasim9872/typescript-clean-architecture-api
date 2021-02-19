@@ -12,7 +12,7 @@
     "build": "tsc",
     "build:watch:": "yarn build --watch",
     "pretty-base": "prettier \"**/*.{ts, js, json}\"",
-    "format": "npm run pretty-base --write",
+    "format": "yarn pretty-base --write",
     "lint": "eslint --fix 'src/**/*.{ts,tsx}'",
     "format:lint": "yarn format && yarn lint",
     "postinstall": "is-ci || husky install"
@@ -48,7 +48,7 @@
       "eslint --max-warnings 0 --fix 'src/**/*.{ts,tsx}'"
     ],
     "*.json": [
-      "npm run format"
+      "yarn format"
     ]
   }
 }

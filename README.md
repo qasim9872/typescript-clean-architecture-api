@@ -31,5 +31,4 @@ Builds the app for production to the `build` folder.
 - [x] Prettier
 - [x] ESLint
 - [x] Husky
-- [ ] CommitLint
-- [ ] Change Log
+- [x] CommitLint

@@ -1,1 +1,3 @@
-console.log('hello')
+export default function hello(): boolean {
+  return true
+}

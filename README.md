@@ -32,3 +32,8 @@ Builds the app for production to the `build` folder.
 - [x] ESLint
 - [x] Husky
 - [x] CommitLint
+
+## References
+
+- [typescript-clean-architecture](https://github.com/dannielhugo/typescript-clean-architecture)
+- [Clean Code - Uncle Bob / Lesson 5](https://www.youtube.com/watch?v=sn0aFEMVTpA)

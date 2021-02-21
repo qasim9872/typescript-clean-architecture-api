@@ -1,5 +1,5 @@
-import { Entity } from '../definitions/interfaces/entity.interface'
-import { ID } from '../definitions/types/id.type'
+import { Entity } from '../definitions/entity/entity.interface'
+import { ID } from '../definitions/entity/id.type'
 
 export class TodoItem implements Entity {
   public id?: ID

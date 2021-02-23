@@ -12,6 +12,8 @@ interface Dependency {
   useValue?: any
 }
 
+export type MockNested<T> = { [key in keyof T]: jest.Mock }
+
 export class TestEnvironment {
   static create(deps: Dependency[] = []): TestEnvironment {
     const testEnvironment = new TestEnvironment()
